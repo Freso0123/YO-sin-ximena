@@ -1,0 +1,78 @@
+:root{
+    --Azul: #009fe2;
+    --Verde: #00bf63;
+    --Rojo: #ff3131;
+    --Blanco: #ffffff;
+}
+
+body{
+    font-family: arial;
+    background-color: black;
+}
+/*--------------------------*/
+
+.box-1{
+    padding: 3rem;
+    justify-items: center;
+}
+
+.titulo{
+    background-color: var(--Azul);
+    padding: .1rem 5rem;
+    font-size: 2.5rem;
+    letter-spacing: .5rem;
+    font-family: Arial;
+    color: var(--Blanco);
+    border-radius: 15px;
+}
+
+/*--------------------------*/
+
+.box-2{
+    display:flex ;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.img{
+    width: 35rem;
+    height:35rem;
+    padding: 2rem;
+    margin-left: 6rem;
+}
+
+.subox-1{
+    padding: 3rem;
+}
+
+.txt-1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: Arial;
+    background-color: var(--Verde);
+    color: var(--Blanco);
+    border-radius: 15px;
+    padding: 4rem 1rem;
+    margin-right: 2rem;
+}
+
+.txt-2{
+    justify-items: right;
+    margin-top: -22rem;
+    margin-right: 5.9rem;
+}
+
+.txt{
+    text-decoration: none;
+    font-size: 4rem;
+
+}
+
+.txt h2{
+    background-color: var(--Rojo);
+    color: var(--Blanco);
+    padding: 2rem 3rem;
+    border-radius: 25px;
+    font-family: Arial;
+    letter-spacing: .5rem;
+}

@@ -1,0 +1,148 @@
+:root{
+    --Azul: #009fe2;
+    --Verde: #00bf63;
+    --verde2: #b2dfca; 
+    --Rojo: #ff3131;
+    --Blanco: #ffffff;
+    --Morado: #5e17eb;
+    --Rosa: #ff66c4;
+    --Naranga: #ff914d;
+}
+
+body{
+    font-family: arial;
+    background-color: black;
+}
+
+/*-----------*/
+
+.box-1{
+    display: flex;
+    padding:  1px;
+    justify-content: center;
+    justify-content: baseline;
+    background-color: var(--Azul);
+    margin-top: 2.5rem;
+}
+
+.inicio{
+    color: var(--Blanco);
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+
+.box-2{
+    display: flex;
+    justify-content: end;
+}
+
+.salir{
+    background-color: var(--Rojo);
+    margin-top: -10.08rem;
+    padding: 3rem 3.5rem;
+}
+
+.salir a{
+    text-decoration: none;
+    color: var(--Blanco);
+    font-size: 3rem;
+}
+
+/*------------------------*/
+
+.box-3{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    /*color: var(--Blanco);*/
+    margin: 2.5rem;
+}
+
+
+.subox-1{
+    background-color: var(--verde2);
+    padding-top: 10rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    padding-bottom: 5rem;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.subox-2{
+    margin-top: -6rem;
+}
+
+.subox-3{
+    margin-top: 2rem;
+}
+
+.texto{
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.image-container {
+    width: 15%; /* Ajusta el tamaño del contenedor de la imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dynamic-image {
+    max-width: 100%; /* Asegura que la imagen se ajuste al contenedor */
+    height: auto;
+    border-radius: 0.5rem;
+}
+/*
+.subox-1 p{
+    font-size: 2rem;
+}
+
+
+.subox-2{
+    background-color: var(--Morado);
+    padding: 1.5rem 4rem;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.subox-2 p{
+    font-size: 2rem;
+}
+
+.subox-3{
+    background-color: var(--Rosa);
+    padding: 3.1rem 12rem;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.subox-3 a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--Blanco);
+}
+
+.subox-4{
+    background-color: var(--Naranga);
+    padding: 3.1rem 14rem;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.subox-4 a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--Blanco);
+}
+
+*/
